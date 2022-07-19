@@ -4,7 +4,12 @@ For this project you will build a component that allows a user to progress throu
 
 The user will be able to navigate through a slideshow showing information about the films of Hayao Miyazaki.
 
-Each "slide" should show the title of the film, the original title of the film in Japanese, the movie poster image, the film's release date, and description text about the film.
+Each "slide" should show:
+- the title of the film, 
+- the original title of the film in Japanese, 
+- the movie poster image, 
+- the film's release date, 
+- and description text about the film.
 
 Data is provided in a file, but its original source is the [Studio Ghibli API](https://ghibliapi.herokuapp.com/).
 
@@ -34,11 +39,11 @@ When you have finished this project, you will...
 
 ## How to Start
 
-This repo contains a React app created with `create-react-app`. You should clone this repo and then run `npm install` in the directory where the package.json is.
+✅ This repo contains a React app created with `create-react-app`. You should clone this repo and then run `npm install` in the directory where the package.json is. 
 
-You can run the application using `npm start`.
+✅ You can run the application using `npm start`.
 
-- Create a component called `Slideshow` in a file called `Slideshow.js`. You will need to write all the code for the slideshow in this component.
+✅ - Create a component called `Slideshow` in a file called `Slideshow.js`. You will need to write all the code for the slideshow in this component.
   - Optionally, you might choose to also make a Slide component, but it's not necessary to make this work.
 - App.js should render the `Slideshow` component.
 - Pass the slide data in as a prop from App.js, where the data is already being imported, to the `Slideshow` component. The data can then be used in the `Slideshow` component.
